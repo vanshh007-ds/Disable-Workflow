@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Disable
-          run: echo "Disable Workflow Concept"
+        run: echo "Disable Workflow Concept"
