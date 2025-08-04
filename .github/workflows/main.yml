@@ -1,0 +1,13 @@
+name: Disable Workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Disable
+          run: echo "Disable Workflow Concept"
